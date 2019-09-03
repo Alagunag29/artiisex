@@ -1,0 +1,100 @@
+.Form {
+  width: 30%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-box-shadow: -2px 0px 7px 0px rgba(0,0,0,0.13);
+  -moz-box-shadow: -2px 0px 7px 0px rgba(0,0,0,0.13);
+  box-shadow: -2px 0px 7px 0px rgba(0,0,0,0.13);
+}
+
+@media only screen and (max-width: 600px) {
+  .Form {
+    width: 60%;
+  }
+}
+
+
+
+.form-header {
+  height: 55vh;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border-bottom: 2px solid black;
+  overflow: scroll;
+
+}
+
+.form-container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 5px
+
+}
+
+.form-header-info {
+  display: flex;
+  align-items: center;
+}
+
+.form-imagen {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  border-radius: 100%;
+}
+
+.form-name {
+  font-weight: bold;
+}
+
+.form-button-delete {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background: red;
+    font-size: 2em;
+    color: white;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-footer {
+  height: 45vh;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  overflow: scroll;
+}
+
+.form-container-money {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-menbresia {
+  margin-bottom: 0px;
+}
+.form-container-money p {
+  margin: 5px 0px;
+}
+
+
+
+.form-container-info-menbresia ul{
+  margin-top: 5px;
+  padding: 0px 15px;
+}
+
+.form-container-info-menbresia li{
+  padding-top: 5px;
+}
+
+.button-gratis {
+  font-size : 1em;
+}
